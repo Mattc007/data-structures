@@ -1,7 +1,7 @@
 require 'test/unit'
 require_relative '../lib/data_structures'
 
-class TestStack < Test::Unit::TestCase
+class StackTest < Test::Unit::TestCase
 
   def setup
     @stack = DataStructures::Stack.new(3)
